@@ -5,7 +5,7 @@ const axios = require('axios');
 const app = express();
 app.use(bodyParser.json());
 
-const PAGE_ACCESS_TOKEN = 'حط هنا توكن الصفحة';
+const PAGE_ACCESS_TOKEN = 'EAAQeZBnCRe5cBPmoSaqXWZCv0egIzsYZAMwE2qmincP5NQPA2BtT5vnrzrzzVn3yWYQDMASg9OZBxb7MQkfPnMDCuYvRnPmGd6QMVpBedQjF4vOPYL79YopqEEBjAiG2tKvukWzMH6ZCVnZClI5ZBUhtsfroCWS5QCpKjuPjsCp5LBEpM5lNNwgjssTkvEOdchC91AJD2gvhgczH97NIoH8HhyU0AZDZD';
 
 // التحقق من Webhook
 app.get('/webhook', (req, res) => {
